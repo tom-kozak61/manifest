@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="aosp"
-           fetch="git://android-x86.git.sf.net/gitroot/android-x86/korg/" />
+           fetch="https://raw.githubusercontent.com/android-x86-mirror/manifest" />
   <remote  name="x86"
            fetch=".." />
   <default revision="refs/tags/HLK75D" remote="aosp" sync-j="1" />
